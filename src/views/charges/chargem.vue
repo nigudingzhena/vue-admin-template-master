@@ -6,7 +6,7 @@
                 <el-col :span="20">
                     <el-input type="month" v-model="searchParameter.month" placeholder="月份"></el-input>
                     <el-input v-model="searchParameter.housename" placeholder="房间名"></el-input>
-                    <el-input v-model="searchParameter.pay" placeholder="是否支付"></el-input>
+                    <el-input v-model="searchParameter.pay" placeholder="是否支付？"></el-input>
                     <el-button @click="getChargeList" type="primary" round>查询</el-button>
                 </el-col>
                 <el-col :span="4" align="right">
